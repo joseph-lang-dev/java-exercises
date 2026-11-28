@@ -69,6 +69,7 @@ public class BigDecimalExercises {
         //  an ArithmeticException for non-terminating decimals (like 1/3).
         BigDecimal dividend = new BigDecimal(a.toString()).divide(b, scale, RoundingMode.HALF_UP);
         return dividend;
+        BigDecimal val = new BigDecimal("0.1").round
     }
 
     /**
